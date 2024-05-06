@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "Rubik",sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -20,20 +20,22 @@ body {
 
 .section-hero {
   background-color: #fdf2e9;
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 9.6rem 0;
 
 }
 
 .hero {
   max-width: 130rem;
-  display: grid; 
+  display: grid;
+  padding: 0 3.2rem;
   grid-template-columns: repeat(2, 1fr);
   margin: 0 auto;
   align-items: center;
   gap: 9.6rem;
 }
 
-.btn:link, .btn:visited{
+.btn:link,
+.btn:visited {
   display: inline-block;
   background-color: #e67e22;
   font-size: 2rem;
@@ -65,26 +67,64 @@ body {
   margin-bottom: 4.8rem;
 }
 
-.btn-full:link,.btn-full:visited{
-background-color: #e67e22;
-color: #fff;
-}
-.btn-full:hover,.btn-full:active{
-background-color: #cf711f;
-color: #fff;
+.btn-full:link,
+.btn-full:visited {
+  background-color: #e67e22;
+  color: #fff;
 }
 
-.btn-outline:link,.btn-outline:visited{
+.btn-full:hover,
+.btn-full:active {
+  background-color: #cf711f;
+  color: #fff;
+}
+
+.btn-outline:link,
+.btn-outline:visited {
   background-color: #fff;
-  color:#555
+  color: #555
 }
 
-.btn-outline:hover,.btn-outline:active{
+.btn-outline:hover,
+.btn-outline:active {
   background-color: #fdf2e9;
-  color:#555;
-  box-shadow:inset 0 0 0 3px #fff;
+  color: #555;
+  box-shadow: inset 0 0 0 3px #fff;
 }
 
-.margin-right-sm{
+.margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-link:active {
+  background-color: #cf711f;
+}
+
+.section-how{
+  padding: 9.6px 0;
+  background-color: orangered;
 }
