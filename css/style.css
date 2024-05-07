@@ -123,21 +123,7 @@
   color: #cf711f;
   border-bottom: 1px solid transparent;
 }
-
-.meal:hover {
-  transform: translateY(-1.2rem);
-  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
-}
-
-.section-testimonials {
-  background-color: #fdf2e9;
-  display: grid;
-  grid-template-columns: 55fr 45fr;
-  align-items: center;
-
-
-}
-
+/* 
 .testimonial-container {
   padding: 9.6rem;
 
@@ -148,8 +134,8 @@
   grid-template-columns: 1fr 1fr;
   row-gap: 4.8rem;
   column-gap: 8rem;
-}
-
+} */
+/* 
 .testimonial-img {
   width: 6.4rem;
   border-radius: 50%;
@@ -171,22 +157,22 @@
   display: block;
   width: 100%;
   transition: all 0.4s;
-}
+} */
 
-.gallery-item {
+/* .gallery-item {
   overflow: hidden;
-}
+} */
 
-.gallery {
+/* .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
-}
+} */
 
-.gallery-item img:hover {
+/* .gallery-item img:hover {
   transform: scale(1.1);
-}
+} */
 
 .section-pricing {
   padding: 9.6rem 0;
@@ -267,7 +253,7 @@
   padding: 4.8rem 12.8rem;
 }
 
-.cta {
+/* .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
@@ -275,9 +261,9 @@
   height: 50rem;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
-}
+} */
 
-.cta-img-box {
+/* .cta-img-box {
   background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url(../img/eating.jpg);
   background-size: cover;
   background-position: center;
@@ -286,7 +272,7 @@
 .cta-text-box {
   color: #45260a;
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
-}
+} */
 
 .cta .heading-secondary {
   color: #45260a;
@@ -544,6 +530,7 @@
   background-color: #51cf66;
   color: #333;
   border-radius: 100px;
+  font-weight: 600;
 }
 
 .meal-tags{
@@ -551,5 +538,11 @@
 }
 
 .meal{
-  
+  box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.075);
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.meal-content{
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
