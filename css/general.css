@@ -52,14 +52,6 @@ body {
   width: 100%;
 }
 
-.heading-primary {
-  font-size: 5.2rem;
-  font-weight: 700;
-  line-height: 1.05;
-  color: #333;
-  letter-spacing: -0.5px;
-  margin-bottom: 3.2rem;
-}
 
 .hero-description {
   font-size: 2rem;
@@ -126,12 +118,12 @@ body {
 
 .section-how {
   padding: 9.6px 0;
-  background-color: orangered;
 }
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
 }
 
 .grid--2-cols {
@@ -144,4 +136,12 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--center-v{
+  align-items: center;
+}
+
+strong{
+  font-weight: 500;
 }
