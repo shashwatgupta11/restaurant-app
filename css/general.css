@@ -145,3 +145,12 @@ body {
 strong{
   font-weight: 500;
 }
+
+.margin-bottom-md{
+  margin-bottom: 4.8rem !important;
+}
+
+.center-cls{
+  text-align: center;
+}
+
